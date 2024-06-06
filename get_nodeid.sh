@@ -1,1 +1,1 @@
-
+cat gaianet/nodeid.json
