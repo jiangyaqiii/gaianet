@@ -8,3 +8,5 @@ alias gaianet='/root/gaianet/bin/gaianet'
 #source ~/.bashrc
 gaianet init
 gaianet start
+source ~/.bashrc
+source ~/.bash_profile
