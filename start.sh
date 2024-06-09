@@ -2,8 +2,7 @@ curl -sSfL 'https://raw.githubusercontent.com/GaiaNet-AI/gaianet-node/main/insta
 cd ~
 source .wasmedge/env
 #"/root/gaianet/bin:$PATH"
-#ln -s /root/gaianet/bin /etc/bin/link
-
+ln -s /root/gaianet/bin /usr/local/bin/gaianet
 source ~/.bashrc
 gaianet init
 gaianet start
