@@ -3,6 +3,6 @@ cd ~
 source .wasmedge/env
 #"/root/gaianet/bin:$PATH"
 ln -s /root/gaianet/bin /usr/local/bin/gaianet
-source ~/.bashrc
+#source ~/.bashrc
 gaianet init
 gaianet start
