@@ -1,4 +1,3 @@
-cd ~/gaianet/bin
 export PATH=/root/gaianet/bin:$PATH
 alias gaianet='/root/gaianet/bin/gaianet'
 gaianet info
