@@ -16,4 +16,4 @@ wget -O node_info.sh https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/
 
 wget -O get_nodeid.sh https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/get_nodeid.sh && chmod +x get_nodeid.sh && ./get_nodeid.sh
 
-wget -O look_status.sh https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/look_status.sh && chmod +x look_status.sh && ./look_status.sh
+curl -s https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/look_status.sh |bash
