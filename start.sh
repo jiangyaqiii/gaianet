@@ -1,12 +1,12 @@
-curl -sSfL 'https://raw.githubusercontent.com/GaiaNet-AI/gaianet-node/main/install.sh' | bash
-cd ~
-source .wasmedge/env
+sudo apt-get update -y
+sudo apt-get install libgomp1 -y
+curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
+
+source /root/.bashrc
 #"/root/gaianet/bin:$PATH"
 #ln -s /root/gaianet/bin/gaianet /usr/local/bin/gaianet
-export PATH=/root/gaianet/bin:$PATH
-alias gaianet='/root/gaianet/bin/gaianet'
 #source ~/.bashrc
+
 gaianet init
 gaianet start
-source ~/.bashrc
-source ~/.bash_profile
+
