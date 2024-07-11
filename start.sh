@@ -6,13 +6,14 @@ sudo apt-get update -y
 sudo apt-get install libgomp1 -y
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
 
-source /root/.bashrc
+#source /root/.bashrc
 #"/root/gaianet/bin:$PATH"
 #ln -s /root/gaianet/bin/gaianet /usr/local/bin/gaianet
 #source ~/.bashrc
+cd ~/gaianet/bin
 
-gaianet init
-gaianet start
+./gaianet init
+./gaianet start
 cd
 rm start.sh
 
