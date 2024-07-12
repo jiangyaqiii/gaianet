@@ -17,3 +17,7 @@ wget -O node_info.sh https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/
 wget -O get_nodeid.sh https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/get_nodeid.sh && chmod +x get_nodeid.sh && ./get_nodeid.sh
 
 curl -s https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/look_status.sh |bash
+
+===============删除gaianet节点脚本================
+
+wget -O delete_node.sh https://raw.githubusercontent.com/jiangyaqiii/gaianet/main/delete_node.sh && chmod +x delete_node.sh && ./delete_node.sh
