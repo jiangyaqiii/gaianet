@@ -1,4 +1,4 @@
-cd ~/gaianet
+cd ~/gaianet/bin
 ./gaianet stop
 cd
 rm -rf gaianet
